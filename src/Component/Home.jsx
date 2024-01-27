@@ -1,9 +1,14 @@
 import React from 'react'
+import Slider from './common/Slider/Slider'
+import Navbar from './Navbar/Navbar'
 
 export default function Home() {
   return (
     <div>
-      <h1>hello worls</h1>
+        <Navbar/>
+        {/* develop the hero section */}
+      <Slider/>  
+
     </div>
   )
 }
