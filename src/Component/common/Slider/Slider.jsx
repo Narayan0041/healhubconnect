@@ -23,7 +23,6 @@ export default function Slider() {
   };
   let ImageData =heroDataImage;
   let HeroImageData =ImageData.map((data ,index)=>{
-    console.log(data.image)
     return(
       <SwiperSlide key={index}>
         <SliderImageSection image={data.image}/></SwiperSlide>
